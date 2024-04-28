@@ -17,6 +17,10 @@ app.get('/views', function (req, res) {
   res.render('index')
 })
 
+app.get('/robel', function (req, res) {
+    console.log('GET called Robel')
+    res.render('index')
+})
 // Start the web server
 app.listen(3000, function () {
   console.log('Listening on port 3000...')
