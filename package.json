@@ -1,0 +1,29 @@
+{
+    "name": "web-dev",
+    "version": "0.0.1",
+    "description": "Learning to Code",
+    "private": true,
+    "license": "MIT",
+    "author": "Pat von Student",
+    "type": "module",
+    "scripts": {
+      "lint": "eslint src/**/*",
+      "lint:fix": "eslint src/**/* --fix",
+      "start": "nodemon src/server.js"
+    },
+    "devDependencies": {
+      "eslint": "^8.57.0",
+      "eslint-config-google": "^0.14.0",
+      "eslint-config-standard": "^17.1.0",
+      "eslint-plugin-import": "^2.29.1",
+      "eslint-plugin-n": "^16.6.2",
+      "eslint-plugin-promise": "^6.1.1",
+      "jsdom": "^24.0.0"
+    },
+    "dependencies": {
+      "express": "^4.19.2",
+      "nodemon": "^3.1.0",
+      "pug": "^3.0.2",
+      "sqlite3": "^5.1.7"
+    }
+  }
