@@ -17,15 +17,11 @@ app.get('/views', function (req, res) {
   res.render('index')
 })
 
-app.get('/views2', function (req, res) {
-  console.log('/views')
-  res.render('index')
+app.get('/contact', function (req, res) {
+  console.log('/contact')
+  res.render('contact')
 })
 
-app.get('/robel', function (req, res) {
-    console.log('GET called Robel')
-    res.render('index')
-})
 // Start the web server
 app.listen(3000, function () {
   console.log('Listening on port 3000...')
