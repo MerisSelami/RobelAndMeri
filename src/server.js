@@ -22,6 +22,21 @@ app.get('/contact', function (req, res) {
   res.render('contact')
 })
 
+app.get('/past', function (req, res) {
+  console.log('CALLED past')
+  res.render('past')
+})
+
+app.get('/current', function (req, res) {
+  console.log('CALLED current')
+  res.render('current')
+})
+
+app.get('/future', function (req, res) {
+  console.log('CALLED future')
+  res.render('future')
+})
+
 // Start the web server
 app.listen(3000, function () {
   console.log('Listening on port 3000...')
