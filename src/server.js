@@ -11,8 +11,13 @@ app.set('views', 'views')
 app.set('view engine', 'pug')
 app.use(express.urlencoded({ extended: false }))
 
-app.get('index')
+
 app.get('/views', function (req, res) {
+  console.log('/views')
+  res.render('index')
+})
+
+app.get('/views2', function (req, res) {
   console.log('/views')
   res.render('index')
 })
