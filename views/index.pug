@@ -1,29 +1,45 @@
 doctype html
 link(rel='stylesheet' href='css/style.css')
-
+label(for='')    
 head
     title Robel Launch 
 body
-<header> <h1>Welcome</h1>
-</header>
-    h1 About me -
-        ul
+ .topnav 
+    a.active(href="/views") Home
+    a(href="about") About
+    .dropdown 
+        button.dropbtn Experience
+            i.fa.fa-caret-down
+        .dropdown-content 
+            a(href="past") Past Work
+            a(href="current") Current Work
+            a(href="future") Future Work 
+    //- a(href="#experience") Experience
+    a(href="contact") Contact    
 
-            li Etc -- new degree wow computer science
-            li Etc -- 
+section
+    nav
+      ul
+      li
+        a(href='past') Past Work &star;
+      li
+        a(href='current') Curent Work
+      li
+        a(href='future') Future Work
 
-        section 
-            nav
-                ul
-                li
-                    a(href='past') Past Work
-                li
-                    a(href='current') Curent Work
-                li
-                    a(href='future') Future Work
-
-
-    section 
-        h2 test
-        a(href='/contact')
-            button How to contact me!
+    //- top right section
+    //- .right 
+    //- a(href='/views')
+    //-     button.btn.btn-home Home   
+header
+  h1 Welcome
+h1 
+  | About me -
+  ul
+    li Etc -- new degree wow computer science
+    li Etc -- 
+  
+    section
+    h2 test
+    a(href='/contact')
+        button.btn.btn-contact how to contact me! 
