@@ -209,6 +209,13 @@
      display: table;
      clear: both;
    }
+
+   img {
+    float: right;
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+   }
  
    footer{
      background-color: #777;
