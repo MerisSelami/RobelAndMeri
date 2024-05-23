@@ -1,22 +1,23 @@
 doctype html
 link(rel='stylesheet' href='css/style2.css')
+link(rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css')
 
 head
     title Robel Launch 
 body
-<header> <h1>Current Test</h1>
-</header>  
-    h1 About me -  
-        ul
-            li Etc -- new degree wow computer science
-        section 
-            <nav>   
-            <ul> 
-            <li> <a href="past">Past Work</a></li>
-            <li> <a href="current">Curent Work</a></li>
-            <li> <a href="future">Future Work</a></li>
-            
-            </ul>
+.topnav
+  a.active(href='/views') Home
+  a(href='about') About
+  .dropdown
+    button.dropbtn
+      | Experience  
+      i.fa.fa-caret-down
+    .dropdown-content
+      a(href='past')        Past Work
+      a(href='current')     Current Work
+      a(href='future') Future Work 
+  a(href='contact') Contact  
+    
             
 footer
     h1 Testing article     
