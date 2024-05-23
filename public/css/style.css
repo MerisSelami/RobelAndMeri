@@ -10,19 +10,33 @@
   }
  
   body{
-     background-color: #CCFFFF;
+     background-color: #e7e7e7;
      font-family: Arial, Helvetica, sans-serif;
  
     /* }
   */
     header{
-     background-color: #CCFFFF;
+     background-color: #e7e7e7;
      padding: 0.5px;
      text-align: center;
-     font-size: 35px;
+     font-size: 60px;
+     font-style: oblique;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
      color: black;
      
   
+   }
+
+   .name {
+    font-size: 30px;
+    font-style: normal;
+   }
+
+   .summary {
+    width: 400px;
+    float: left;
+    text-align: center;
+    font-size: 18px;
    }
 
    ul{
@@ -73,7 +87,7 @@
     overflow: hidden;
     background-color: black;
    }
-
+   /* Creating the navigation bar class */
    .topnav a {
     float: left;
     display: block;
@@ -184,11 +198,6 @@
   }
 } 
 
-   /* .topnav a.active{
-    background-color: #04aa6d;
-    color: white; */
-  
-
    nav{
      float: left;
      width: 30%;
@@ -209,14 +218,24 @@
      display: table;
      clear: both;
    }
+   /* Formating the images */
+   .container {
+    background-color: inherit;
+    padding: 80px;
+   }
+   .container img {
+    mix-blend-mode: darken;
+   }
 
-   img {
+    img {
     float: right;
-    width: 500px;
-    height: 400px;
+    width: 600px;
+    height: 600px;
     object-fit: cover;
    }
- 
+   
+   
+
    footer{
      background-color: #777;
      padding: 10px;

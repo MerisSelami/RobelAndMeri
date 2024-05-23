@@ -1,5 +1,6 @@
 doctype html
 link(rel='stylesheet' href='css/style.css')
+link(rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css')
 label(for='')    
 head
     title Robel Launch 
@@ -18,20 +19,27 @@ body
       a(href='future') Future Work 
   a(href='contact') Contact  
     
-
 header
   h1 Welcome
 h1 
-  | About me -
-  ul
-    li Etc -- new degree wow computer science
-    li Etc -- 
+  medium 
+    i Chemist
+.name 
+  h1 
+    b Robel Clifton
 
-section 
-    img(src='img/me.jpg' alt='Robel' style='width:800;height:500;')
+
+.summary 
+  p I am a chemist by trade and a student of life by choice. I find that if I keep an open mind the experiences will be worth it.
+    
+    
+.container
+  img(src='img/me.jpg' alt='Robel' width='500' height='500')
+ 
+    //- img(src='img/me.jpg' alt='Robel' style='width:200;height:200;')
 
   
-    section
-    h2 test
-    a(href='/contact')
-        button.btn.btn-contact how to contact me! 
+section
+  h2 test
+  a(href='/contact')
+    button.btn.btn-contact how to contact me! 
