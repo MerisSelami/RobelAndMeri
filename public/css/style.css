@@ -13,27 +13,62 @@
      background-color: #e7e7e7;
      font-family: Arial, Helvetica, sans-serif;
  
-    /* }
-  */
-    header{
-     background-color: #e7e7e7;
-     padding: 0.5px;
-     text-align: center;
-     font-size: 60px;
-     font-style: oblique;
-     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-     color: black;
+  }
+
+  .container {
+    width: 92%;
+    margin: auto;
+    height: 100%;
+    
+  }
+
+  /* Setting the website responsiveness on tables (min-width) screens */
+  @media only screen and (min-width: 576px) {
+    .container {
+      width: 540px;
+      
+    }
+  }
+
+  /* Setting the website responsiveness for desktop (min-width) screens */
+  @media only screen and (min-width: 1200px) {
+    .container {
+      width: 1140px;
+      
+    }
+  }
+
+  header{
+    background-color: #e7e7e7;
+    padding: 0.5px;
+    text-align: center;
+    font-size: 60px;
+    font-style: oblique;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
      
   
    }
 
+   .occupation {
+    float: left;
+    font-size: 20px;
+    font-style: normal;
+    text-align: center;
+    line-height: 15px;
+   }
+
    .name {
+    float: left;
     font-size: 30px;
     font-style: normal;
+    text-align: center;
+    line-height: 15px;
    }
 
    .summary {
-    width: 400px;
+    width: 600px;
+    position:relative;
     float: left;
     text-align: center;
     font-size: 18px;
@@ -75,15 +110,20 @@
    }
 
    .btn-contact {
-    background-color:lightcoral ;
+    background-color:gray ;
    }
 
    .topnav {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
     overflow: hidden;
     background-color: black;
    }
    /* Creating the navigation bar class */
    .topnav a {
+    
     float: left;
     display: block;
     color: white;
@@ -103,6 +143,7 @@
    }
    /* Dropdown container */
    .dropdown {
+    
     float: left;
     overflow: hidden;
    }
@@ -118,11 +159,11 @@
     margin: 0;
    }
 
-  }
+  
   /* Dropdown content is hidden by default */
   .dropdown-content {
    display: none;
-   position: absolute;
+   position: fixed;
    background-color:black;
    min-width: 160px;
    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
@@ -214,28 +255,29 @@
      clear: both;
    }
    /* Formating the images */
-   .container {
-    background-color: inherit;
-    padding: 80px;
-   }
-   .container img {
-    mix-blend-mode: darken;
-   }
+  
 
     img {
     float: right;
-    width: 600px;
-    height: 600px;
+    width: 800px;
+    height: 500px;
     object-fit: cover;
+    position: relative;
    }
    
    
 
-   footer{
-     background-color: #777;
-     padding: 10px;
+   .footer-homepg{
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+     background-color: lightgray;
+     padding: 0px;
      text-align: center;
-     color: white;
+     color: black;
+
+     min-width: 200px;
    }
    @media (max-width: 600px){
      nav, article {
