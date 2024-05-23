@@ -263,6 +263,10 @@
     height: 500px;
     object-fit: cover;
     position: relative;
+    z-index: -1;
+    opacity: 85%;
+    right: 4px;
+    top: 0px;
    }
    
    
@@ -276,7 +280,7 @@
      padding: 0px;
      text-align: center;
      color: black;
-
+    opacity: 80%;
      min-width: 200px;
    }
    @media (max-width: 600px){
