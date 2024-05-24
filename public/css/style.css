@@ -103,9 +103,9 @@
    .btn-home {
     background-color: wheat;
     padding: none;
-    position: absolute;
+    position: relative;
     right: 0px;
-    width: 150%;
+    width: 50%;
     padding: none;
     
    }
@@ -144,7 +144,6 @@
    }
    /* Dropdown container */
    .dropdown {
-    
     float: left;
     overflow: hidden;
    }
@@ -171,9 +170,6 @@
    z-index: 1;
   }
 
-  /* .dropdown-content:focus-within {
-    display: none !important;
-  } */
 
   /* Links inside the dropdown */
   .dropdown-content a {
