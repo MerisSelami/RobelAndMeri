@@ -86,16 +86,14 @@
    /* position: absolute; */
  }
 
- .btn-home {
-   background-color: wheat;
-   position: absolute;
-   right: 0;
-   width: 150%;
- }
-
  .btn-contact {
    background-color: gray;
+   position: relative;
+   right: 0;
+   width: 100%;
  }
+
+ 
 
  .topnav {
    position: fixed;
