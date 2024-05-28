@@ -55,7 +55,7 @@ header {
 }
 
 .name {
-  font-size: 40px;
+  font-size: 30px;
   font-style: normal;
   text-align: center;
 }
@@ -66,6 +66,8 @@ header {
   float: left;
   text-align: center;
   font-size: 18px;
+  margin-right: 1000px;
+  bottom: -100px;
 }
 
 ul {
@@ -83,20 +85,15 @@ ul.horizontal-list li {
 }
 
 .btn {
-  /* padding: 10px; */
   color: white;
-  /* position: absolute; */
 }
 
 .btn-home {
-  background-color: wheat;
-  position: absolute;
+  background-color: black;
+  position: relative;
   right: 0;
-  width: 100%;
-}
-
-.btn-contact {
-  background-color: gray;
+  width: 150px;
+  height: 50px;
 }
 
 .topnav {
@@ -251,7 +248,7 @@ section::after {
 /* Formatting the images */
 img {
   float: right;
-  width: 800px;
+  width: 600px;
   height: 500px;
   object-fit: cover;
   position: relative;
@@ -259,6 +256,8 @@ img {
   opacity: 85%;
   right: 4px;
   top: 0px;
+  padding-top: 100px;
+  margin-top: -200px;
 }
 
 .footer-homepg {
