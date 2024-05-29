@@ -97,6 +97,7 @@
    right: 0;
    width: 150px;
    height: 50px;
+   cursor: pointer;
  }
 
  
@@ -122,7 +123,7 @@
  }
 
  .active {
-   background-color: #04AA6D;
+   background-color: black;
    color: white;
  }
 
@@ -254,13 +255,14 @@
  img {
    float: right;
    width: 800px;
-   height: 500px;
+   height: 600px;
    object-fit: cover;
    position: relative;
    z-index: -1;
    opacity: 85%;
    right: 4px;
-   top: 0px;
+   top: 40px;
+   bottom: 80px;
  }
 
  .footer-contactpg {
@@ -275,6 +277,46 @@
    opacity: 80%;
    min-width: 200px;
  }
+
+ /* About me file section formating */
+
+ .about-section {
+  top: -600px;
+  padding: 50px;
+  text-align: center;
+  background-color: #737883;
+  color: white;
+}
+
+.wizhat-img {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  padding: 150px;
+  top: -160px;
+  right: 25px;
+  
+}
+.pup-img {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  padding: 150px;
+  top: -460px;
+  left: -1100px;
+  
+}
+
+.bball-img {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  padding: 150px;
+  top: -760px;
+  left: 255px;
+  
+}
+
 
  @media (max-width: 600px) {
    nav,

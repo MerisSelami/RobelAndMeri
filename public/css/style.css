@@ -51,7 +51,8 @@ header {
 .occupation {
   font-size: 20px;
   font-style: normal;
-  text-align: center;
+  position: relative;
+  left: -190px;
 }
 
 .name {
@@ -63,11 +64,12 @@ header {
 .summary {
   width: 600px;
   position: relative;
-  float: left;
   text-align: center;
   font-size: 18px;
   margin-right: 1000px;
   bottom: -100px;
+  left: -180px;
+
 }
 
 ul {
@@ -94,6 +96,7 @@ ul.horizontal-list li {
   right: 0;
   width: 150px;
   height: 50px;
+  cursor: pointer;
 }
 
 .topnav {
@@ -117,7 +120,7 @@ ul.horizontal-list li {
 }
 
 .active {
-  background-color: #04AA6D;
+  background-color: black;
   color: white;
 }
 
@@ -140,6 +143,7 @@ ul.horizontal-list li {
   background-color: inherit;
   font-family: inherit;
   margin: 0;
+  cursor: pointer;
 }
 
 /* Dropdown content is hidden by default */
@@ -166,6 +170,7 @@ ul.horizontal-list li {
 .dropdown:hover .dropbtn {
   background-color: lightgreen;
   color: black;
+  cursor: pointer;
 }
 
 /* Add a gray background color to dropdown links on hover */
@@ -246,7 +251,15 @@ section::after {
 }
 
 /* Formatting the images */
-img {
+.home-img{
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  padding: 150px;
+  top: -160px;
+  right: -590px;
+}
+/* img {
   float: right;
   width: 600px;
   height: 500px;
@@ -258,7 +271,8 @@ img {
   top: 0px;
   padding-top: 100px;
   margin-top: -200px;
-}
+} */
+
 
 .footer-homepg {
   position: fixed;
