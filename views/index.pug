@@ -20,24 +20,27 @@ head
       a(href='/future') Future Work
   a(href='contact') Contact
 header
-  .container
-    h1 Welcome
+    .greeting
+      h1 Welcome
     .occupation
       h1
         i Chemist
     .name
       h1
         b Robel Clifton
- 
+  
 .summary
 h3
   p I am a chemist by trade and a student of life by choice.
   p I find that if I keep an open mind the experiences will be worth it.
-// Adds the image on the home page.
-section 
-.home-img 
-  img(src='img/me.jpg', alt='Robel' style='width: 550px; height: 850px')
-.footer-homepg
-  h2 Test
-  a(href='/contact')
-    button.btn.btn-home How to contact me!
+  // Adds the image on the home page.
+  section
+  .row
+  .column
+    img(src='img/me.jpg', alt='Robel' style='width:50%; height: 50%')
+//- .home-img 
+//-   img(src='img/me.jpg', alt='Robel' style='width: 850px; height: 1050px')
+  .footer-homepg
+    h2 Test
+    a(href='/contact')
+      button.btn.btn-home How to contact me!

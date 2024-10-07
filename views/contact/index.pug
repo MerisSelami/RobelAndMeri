@@ -19,14 +19,23 @@ body
       a(href='future') Future Work 
   a(href='contact') Contact  
       
-    
-<header> <h1>Contact Test</h1>
+    //- Creating the contact page
+<header> <h1>Contact Me:)</h1>
 </header>  
-    h1 About me -  
-        ul
-            li Etc -- new degree wow computer science
+    section.contact-form
+      .form-container
+        h2 Your Details
+        form(action='#' method='POST')
+          label(for='name') Name: 
+          input#name(type='text' name='name' required='')
+          label(for='email') Email: 
+          input#email(type='email' name='email' required='')
+          label(for='phone') Phone: 
+          input#phone(type='tel' name='phone')
+          label(for='message') Message: 
+          textarea#message(name='message' rows='4' required='')
+          button.submit-button(type='submit') Submit
 .footer-contactpg
-  h2 Test
   a(href='/views')
     button.btn.btn-contact Home!
 

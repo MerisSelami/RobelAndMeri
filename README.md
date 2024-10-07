@@ -15,3 +15,17 @@ Update the readme with the new goal Keep old goals in lower font and put Update 
 
 # CSS/Style & CSS/Style2 & Past/Current/Future/ Main index pug -
  create a “Inspect element” obfuscation so they cannot check your code publicly
+
+ # Contact page resources used.
+ The contact page framework was used following the example below -
+
+- https://www.geeksforgeeks.org/design-a-contact-us-page-using-html-and-css/
+
+This page is still in its infency and needs a lot of attention. 10/06/2024.
+
+ # About page resources used.
+ - The about me page framework was constructed using the following example, I have previously struggled with getting the images to not overlap with one another.
+
+ -https://www.w3schools.com/howto/howto_css_images_side_by_side.asp
+
+ 

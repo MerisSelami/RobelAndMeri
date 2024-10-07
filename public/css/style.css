@@ -47,25 +47,39 @@ header {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color: black;
 }
+.greeting{
+  background-color: #737883;
+}
 
 .occupation {
   font-size: 20px;
   font-style: normal;
+  text-align: center;
+  border-style: solid;
+  width: 600px;
+  padding: 5px 5px;
+  inline-size: 30%;
   position: relative;
-  left: -190px;
+  top: 20px; left: 800px;
 }
 
 .name {
   font-size: 30px;
   font-style: normal;
   text-align: center;
+  border-style: solid;
+  padding: 5px 5px;
+  inline-size: 30%;
+  position: relative;
+  top: 20px; left: 800px;
 }
 
 .summary {
   width: 600px;
+  height: -160px;
   position: relative;
   text-align: center;
-  font-size: 18px;
+  font-size: 28px;
   margin-right: 1000px;
   bottom: -100px;
   left: -180px;
@@ -236,6 +250,9 @@ nav {
   background: #CCFFFF;
   padding: 20px;
 }
+#navbar{
+  z-index: 100;
+}
 
 article {
   float: left;
@@ -257,22 +274,10 @@ section::after {
   position: relative;
   padding: 150px;
   top: -160px;
-  right: -590px;
-}
-/* img {
-  float: right;
-  width: 600px;
-  height: 500px;
-  object-fit: cover;
-  position: relative;
+  right: -490px;
   z-index: -1;
-  opacity: 85%;
-  right: 4px;
-  top: 0px;
-  padding-top: 100px;
-  margin-top: -200px;
-} */
-
+  height: 300px;
+}
 
 .footer-homepg {
   position: fixed;
@@ -281,6 +286,7 @@ section::after {
   width: 100%;
   background-color: lightgray;
   padding: 0px;
+  padding-bottom: 300px 300px;
   text-align: center;
   color: black;
   opacity: 80%;

@@ -288,35 +288,110 @@
   color: white;
 }
 
-.wizhat-img {
+/* An outdated way to line up the images in the about me page, might delete later. */
+
+/* .wizhat-img {
   margin-left: auto;
   margin-right: auto;
   position: relative;
   padding: 150px;
   top: -160px;
   right: 25px;
-  
-}
+  width: 50%;
+  object-fit: cover;
+} */
+/* 
 .pup-img {
   margin-left: auto;
   margin-right: auto;
   position: relative;
   padding: 150px;
-  top: -460px;
-  left: -1100px;
+  /* top: -460px;
+  left: -1100px; */
+  /* width: 5%;
+  object-fit: cover; */
   
-}
+/* } */
 
-.bball-img {
+/* .bball-img {
   margin-left: auto;
   margin-right: auto;
   position: relative;
   padding: 150px;
   top: -760px;
   left: 255px;
-  
+  width: 40%;
+} */
+
+
+/*testing out a new way for the about me page*/
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
 }
 
+.row{
+  display: flex;
+}
+
+  /*contact form formating*/
+
+  .contact-form {
+    padding: 40px 0;
+    margin: 0 10px;
+  }
+
+  .form-containter {
+    max-width: 40%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+}
+
+.form-container label {
+    display:block;
+    font-weight: bold;
+}
+.form-container input, textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    resize: vertical;
+}
+.submit-button {
+    padding: 10px 20px;
+    background-color: #0dac30;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+/* Contact info styles */
+.contact-info {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f7f7f7;
+}
+
+.contact-info h2 {
+    margin-bottom: 20px;
+}
 
  @media (max-width: 600px) {
    nav,
